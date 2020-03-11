@@ -1,0 +1,33 @@
+.cache/
+.coverage
+.tox/
+env
+*.pyc
+*.swp
+**.swp
+var/
+venv
+*.egg-info
+local.conf
+*.idea*
+# Sphinx documentation
+docs/_build/
+*.xlsx
+*.xls
+*.csv
+*.xlsm
+*.json
+
+# Specific directories and file paths
+Braza_Work/Daily_Editorial_v2/pdf/
+Braza_Work/Omniture_Editorial/output/
+Braza_Work/**/*.json
+data_sources/localytics/attribution/staging/
+data_sources/omniture/daily_editorial/output/
+data_sources/youtube/**/*.json
+data_sources/youtube/output
+daily_reports/editorial_dash/output
+daily_reports/editorial_dash/**/*pdf
+daily_reports/editorial_dash/**/*.png
+daily_reports/editorial_report/**/*.png
+
